@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 12px;
+  font-family: "League Spartan", sans-serif;
+}
