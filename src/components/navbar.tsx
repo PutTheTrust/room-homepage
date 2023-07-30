@@ -1,13 +1,11 @@
 import logo from "../assets/images/logo.svg";
 import menu from "../assets/images/icon-hamburger.svg";
 import MobileNav from "./mobile-nav";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { toggleOpen } from "../store/slice/navbar-slice";
 
 const Navbar = () => {
-  const open = useSelector((state: any) => state.navbarStore.open);
   const dispatch = useDispatch();
-  console.log(open);
   return (
     <>
       <div className="flex items-center h-[110px] md:gap-14 relative">
