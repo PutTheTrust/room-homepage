@@ -12,14 +12,14 @@ const Slider: React.FC<SliderProps> = ({ styles }) => {
   return (
     <div className={`${styles} absolute bottom-0 right-0 md:left-0 z-20`}>
       <button
-        className="bg-black w-14 h-14 md:w-20 md:h-20 "
+        className="bg-black w-14 h-14 md:w-20 md:h-20 hover:bg-very-dark-gray transition-colors"
         onClick={() => dispatch(slide(-1))}
       >
         <img className="mx-auto" src={left} alt="left" />
       </button>
 
       <button
-        className="bg-black w-14 h-14 md:w-20 md:h-20 "
+        className="bg-black w-14 h-14 md:w-20 md:h-20 hover:bg-very-dark-gray transition-colors"
         onClick={() => dispatch(slide(+1))}
       >
         <img className="mx-auto" src={right} alt="right" />

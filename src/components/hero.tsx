@@ -40,7 +40,7 @@ const Hero = () => {
               {data[current].text}
             </p>
 
-            <button className="text-xl tracking-[10px] flex items-center mt-[50px] md:mt-6 font-bold">
+            <button className="text-xl tracking-[10px] flex items-center mt-[50px] md:mt-6 font-bold hover:text-dark-gray transition-colors">
               SHOP NOW <img src={arrow} alt="arrow" />
             </button>
           </div>
