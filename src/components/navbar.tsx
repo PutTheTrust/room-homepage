@@ -8,7 +8,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
   return (
     <>
-      <div className="flex items-center h-[110px] md:gap-14 relative">
+      <div className="flex items-center h-[110px] md:gap-14 absolute z-20 w-full px-6">
         <button
           className="md:hidden"
           onClick={() => dispatch(toggleOpen(true))}

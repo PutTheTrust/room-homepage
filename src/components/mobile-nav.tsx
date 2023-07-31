@@ -9,7 +9,7 @@ const MobileNav = () => {
     <div
       className={`${
         open
-          ? "bg-white flex items-center justify-between px-[26px] absolute h-[110px] w-full left-0 top-0"
+          ? "bg-white flex items-center justify-between px-[26px] absolute h-[110px] w-full left-0 top-0 z-40"
           : "hidden"
       }`}
     >
